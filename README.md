@@ -1,7 +1,9 @@
 <h1 align="center">tablens.nvim</h1>
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e90e6d53-7fd6-4283-a380-4535baa1f55a" />
+
 > [!NOTE]
-> a [Telescope](https://github.com/nvim-telescope/telescope.nvim) picker for managing tab pages.
+> A [Telescope](https://github.com/nvim-telescope/telescope.nvim) picker for managing tab pages.
 
 ## Setup
 
