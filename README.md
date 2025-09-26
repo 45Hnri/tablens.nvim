@@ -33,7 +33,7 @@ require("tablens").setup {
 ```lua
 {
     '45Hnri/tablens.nvim',
-    config = {},
+    opts = {},
     dependencies = {
         'nvim-lua/plenary.nvim',
         'nvim-telescope/telescope-symbols.nvim',
