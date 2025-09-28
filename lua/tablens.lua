@@ -191,27 +191,7 @@ function M.setup(config)
   if not config then
     config = {}
   end
-
-  if config.keymaps then
-    for k, v in pairs(M.default_config.keymaps) do
-      if not config.keymaps[k] then
-        config.keymaps[k] = v
-      end
-    end
-  else
-    config.keymaps = M.default_config.keymaps
-  end
-
-  if config.highlighting then
-    for k, v in pairs(M.default_config.highlighting) do
-      if not config.highlighting[k] then
-        config.highlighting[k] = v
-      end
-    end
-  else
-    config.highlighting = M.default_config.highlighting
-  end
-
+  config = vim.tbl_deep_extend("keep", config, M.default_config)
   vim.keymap.set("n", config.keymaps.open_picker, function() M.get_tabs(config) end)
 end
 
