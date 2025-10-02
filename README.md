@@ -113,8 +113,7 @@ solution.
 
 **This is when I revisited tabs**. Mapping their indices to my number row
 allows me to access them directly like with `Harpoon`. You can also access them
-sequentially with `gt` and `gT`, move them with `:tabm` and view them with
-`:tabf` or `:tabs`.
+sequentially with `gt` and `gT`, move them with `:tabm` and view them with `:tabs`.
 
 The only thing I am not happy with is the `tabline`. So I wrote this plugin
 to just have a simple picker with some `Harpoon`-like management.
