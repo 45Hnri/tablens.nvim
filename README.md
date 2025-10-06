@@ -5,6 +5,10 @@
 > [!NOTE]
 > A [Telescope](https://github.com/nvim-telescope/telescope.nvim) picker for managing tab pages.
 
+> [!IMPORTANT]
+> If you want to help add support for other pickers, check the [contributing guide](CONTRIBUTING.md)
+> - [x] Snacks
+
 ## Setup
 
 The default config looks like this:
